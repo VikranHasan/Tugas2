@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Hello nanda flutter basic '),
+      home: const MyHomePage(title: 'Hello viki flutter basic '),
     );
   }
 }
@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 backgroundColor: Colors.yellow,
                 child: Text('$index'),
               ),
-              title: Text('nanda'),
+              title: Text('Vikran'),
               subtitle: Text('$index'),
             ),
           );
